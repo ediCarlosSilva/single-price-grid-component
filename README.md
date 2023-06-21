@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ediCarlosSilva/single-price-grid-component)
-- Live Site URL: [Add live site URL here](https://single-price-grid-component-pi-two.vercel.app/)
+- Solution URL: [Github repo](https://github.com/ediCarlosSilva/single-price-grid-component)
+- Live Site URL: [Deploy](https://single-price-grid-component-pi-two.vercel.app/)
 
 ### Built with
 
@@ -37,5 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://edicarlossilva.github.io)
+- Website - [My portifolio](https://edicarlossilva.github.io)
 
