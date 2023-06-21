@@ -1,18 +1,18 @@
 :root {
     /* Primary */
     --primary-cyan: hsl(179, 62%, 43%);
-    --bright-yellow: hsl(71, 73%, 54%);
-    --white: #fff;
+    --primary-bright-yellow: hsl(71, 73%, 54%);
+    --primary-white: #fff;
     /* Neutral */
-    --light-gray: hsl(204, 43%, 93%);
-    --grayish-blue: hsl(218, 22%, 67%);
+    --neutral-light-gray: hsl(204, 43%, 93%);
+    --neutral-grayish-blue: hsl(218, 22%, 67%);
 
     font-family: 'Karla', sans-serif;
 
 }
 
 body {
-    background-color: var(--light-gray);
+    background-color: var(--neutral-light-gray);
     min-height: 100vh;
     user-select: none;
     display: flex;
@@ -24,7 +24,7 @@ body {
 
 main.container {
     max-width: 640px;
-    background-color: var(--white);
+    background-color: var(--primary-white);
     border-radius: 10px;
     /* box-shadow: 0 3px 25px gray; */
 }
@@ -41,21 +41,21 @@ section.first-div {
 }
 
 .first-div .subtitle {
-    color: var(--bright-yellow);
+    color: var(--primary-bright-yellow);
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 1rem !important;
 }
 
 .first-div .description {
-    color: var(--grayish-blue);
+    color: var(--neutral-grayish-blue);
     font-weight: bold;
     line-height: 1.5rem;
 }
 
 section.second-div {
     display: flex;
-    color: var(--white);
+    color: var(--primary-white);
 }
 
 div.one {
@@ -102,8 +102,8 @@ div.one .one__description .description__second {
 }
 
 div.one .one__signup {
-    background-color: var(--bright-yellow);
-    color: var(--white);
+    background-color: var(--primary-bright-yellow);
+    color: var(--primary-white);
     border: none;
     border-radius: .4rem;
     box-sizing: border-box;
