@@ -136,11 +136,12 @@ div.two {
 
 @media screen and (max-width: 480px) {
     main.container {
-        border-radius: 0;
+        border-radius: 4px;
+        margin: 4rem 2rem 1rem;
     }
 
     section.first-div {
-        padding: 2rem;
+        padding: 1.5rem;
     }
 
     .first-div .title {
@@ -149,7 +150,7 @@ div.two {
     }
 
     .first-div .subtitle {
-        font-size: 1.1rem;
+        font-size: .8rem;
         font-weight: bold;
     }
 
@@ -175,7 +176,15 @@ div.two {
 
     div.one, div.two {
         width: auto;
+        padding: 1.5rem;
+    }
+
+    div.one {
         border-radius: 0;
+    }
+
+    div.two {
+        border-radius: 0 0 4px 4px;
     }
 
 }
