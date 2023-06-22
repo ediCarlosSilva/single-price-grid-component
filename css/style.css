@@ -30,7 +30,7 @@ main.container {
 }
 
 section.first-div {
-    padding: 3rem;
+    padding: 3rem 2rem;
 }
 
 .first-div .title {
@@ -150,7 +150,7 @@ div.two {
     }
 
     .first-div .subtitle {
-        font-size: .8rem;
+        font-size: 1.1rem;
         font-weight: bold;
     }
 
